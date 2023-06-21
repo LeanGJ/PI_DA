@@ -1,6 +1,6 @@
 <h1 align="center"> Individual Project 2 - Data Analyst </h1> 
 
-![moocs](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.city-journal.org%2Farticle%2Fwhatever-happened-to-moocs&psig=AOvVaw0Te7YHCddF2EIu8DP4WAuc&ust=1687444402531000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCo8bTK1P8CFQAAAAAdAAAAABAJ)
+![moocs](https://drive.google.com/file/d/1bzPX9PtlRBD6Gxjzcmtw4GpGqIJxJc-C/view?usp=drive_link)
 
 <h1>Índex</h1>
 
