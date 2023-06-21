@@ -1,6 +1,6 @@
 <h1 align="center"> Individual Project 2 - Data Analyst </h1> 
 
-![moocs](https://drive.google.com/file/d/1bzPX9PtlRBD6Gxjzcmtw4GpGqIJxJc-C/view?usp=drive_link)
+![moocs](https://media5.manhattan-institute.org/iiif/2/sites%2Fcj%2Ffiles%2Fwhatever-happened-to-moocs.jpg/full/!99999,960/0/default.jpg)
 
 <h1>Índex</h1>
 
