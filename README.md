@@ -1,6 +1,6 @@
 <h1 align="center"> Individual Project 2 - Data Analyst </h1> 
 
-![moocs]([[https://d1e00ek4ebabms.cloudfront.net/production/87584bfb-44d2-4568-9114-b5a267436a40.jpg](https://www.seas.es/blog/wp-content/uploads/2013/12/posible_cabecera.jpg)](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.seas.es%2Fblog%2Fe-learning%2Fel-origen-de-los-moocs%2F&psig=AOvVaw0Te7YHCddF2EIu8DP4WAuc&ust=1687444402531000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCo8bTK1P8CFQAAAAAdAAAAABAE))
+![moocs](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.city-journal.org%2Farticle%2Fwhatever-happened-to-moocs&psig=AOvVaw0Te7YHCddF2EIu8DP4WAuc&ust=1687444402531000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOCo8bTK1P8CFQAAAAAdAAAAABAJ)
 
 <h1>Índex</h1>
 
