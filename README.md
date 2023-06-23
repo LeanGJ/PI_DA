@@ -1,80 +1,47 @@
-<h1 align="center"> Individual Project 2 - Data Analyst </h1> 
+<h1 align="center"> Proyecto Individual - Data Analyst </h1> 
 
 ![moocs](https://media5.manhattan-institute.org/iiif/2/sites%2Fcj%2Ffiles%2Fwhatever-happened-to-moocs.jpg/full/!99999,960/0/default.jpg)
 
-<h1>Índex</h1>
+# Análisis de Datos de Cursos Online
 
-[Title and cover image](#Individual-Project-2-Data-Analyst)
+Este proyecto se centra en el análisis de datos de cursos online con el objetivo de proporcionar insights y conclusiones para una startup de tecnología interesada en ingresar al mercado de cursos online de manera eficiente. La startup ha adquirido datasets de posibles competidores, incluyendo Udemy, edX y Coursera, para analizar y extraer conclusiones de los datos recolectados.
 
-[Project Description](#project-description)
+## Descripción del Problema
 
-[Project Status](#Project-Status)
+El mercado de cursos online ha experimentado un crecimiento significativo en los últimos años, con la proliferación de plataformas de aprendizaje en línea. La competencia en este mercado es intensa y las plataformas buscan captar y retener a un público cada vez más exigente. El objetivo de este proyecto es ayudar a la startup a comprender mejor el mercado de cursos online y tomar decisiones informadas para su entrada eficiente.
 
-[Application and Demo Features](#Application-and-Demo-Features)
+## Rol a Desarrollar
 
-[Project Access](#project-access)
+En este proyecto, asumimos el rol de analistas de datos. Nuestro trabajo consiste en analizar los datasets adquiridos y proporcionar información relevante para la toma de decisiones de la startup. Se nos solicita segmentar el nivel de ventas de los cursos según variables como precio, idioma, nivel y calificación, con el fin de evaluar su influencia en la demanda del producto. Además, se nos pide generar un Word Cloud de las palabras clave más frecuentes en los títulos de los cursos.
 
-[Technologies used](#technologies-used)
+Para monitorear la eficacia de los objetivos de la empresa, se nos pide visualizar y calcular diferentes KPIs. El KPI principal es la tasa de conversión de inscritos gratuitos a inscritos pagados, que se calcula dividiendo el número de inscritos en cursos pagados por el número de inscritos en cursos gratuitos y multiplicándolo por 100. La empresa tiene como objetivo incrementar esta tasa en un 15% en comparación con el año anterior. Además, se nos desafía a buscar datasets complementarios para evaluar este KPI en distintas plataformas de cursos online.
 
-[Conclusion](#conclusion)  
+## Propuesta de Trabajo
 
-[People developing the project](#People_developing_the_project)
+### Análisis Exploratorio de Datos (EDA)
 
-<h1>Project description</h1>
+Realizaremos un análisis exploratorio de los datos adquiridos utilizando un notebook de Jupyter. Documentaremos nuestros pasos de forma clara y concisa, acompañando cada gráfico y análisis con conclusiones relevantes. Prestaremos especial atención a la prolijidad del notebook y nos aseguraremos de que nuestros análisis sean comprensibles y respaldados por los datos. En caso de utilizar librerías como pandas_profiling, complementaremos los gráficos generados con análisis propios.
 
-As data analysts, we found ourselves in the situation where a company asked us for information on how to invest in the S&P500 stock market. Among the information required, we are asked to make a detailed analysis of the last 33 years in the market, investment recommendations and additional professional information at our discretion. The EDA corresponding to various stock actions, technical indicators and informational dashboards must be carried out.
+### Dashboard
 
-<h1>Project Status</h1>
+Desarrollaremos un dashboard interactivo para visualizar los resultados del análisis. El dashboard contendrá filtros que permitirán explorar los datos en detalle mediante la selección de variables de interés. Nos aseguraremos de que el diseño del dashboard facilite la interpretación de la información, utilizando gráficos adecuados y presentando los datos de manera clara y estética.
 
-<h4 align="center">
-:construction: Proyecto en construcción :construction:
-</h4>
+### Análisis y Conclusiones
 
-The status of this project is in its MVP (Minimum Viable Product) version. The ETL applied here is the standard for an adequate treatment of information. The EDA is moderate for delivery times. Complementary dashboards and KPIs are the basics for the project.
+No nos limitaremos únicamente a la producción de gráficos y visualizaciones en el dashboard, sino que también extraeremos análisis y conclusiones relevantes a partir de los datos. Explicaremos el significado y la funcionalidad de los KPIs propuestos, relacionándolos con la historia que queremos contar y respaldando nuestras conclusiones con los resultados obtenidos.
 
-<h1>Application and Demo Features</h1>
+### KPIs
 
-:hammer: Project Inquiries
+Además del KPI principal de tasa de conversión de inscritos gratuitos a inscritos pagados, propondremos otros tres KPIs relacionados con los objetivos de la empresa y los insights obtenidos del análisis de los datos. Estos KPIs serán presentados en el dashboard y explicaremos su análisis y funcionalidad.
 
+## Repositorio de GitHub
 
+El repositorio en GitHub contendrá los siguientes elementos:
 
-<h1>Project Access</h1>
+- `README.md`: Este archivo README que proporciona una descripción general del proyecto y detalla el contenido de cada archivo y carpeta del repositorio. También incluirá un informe de análisis basado en los resultados del dashboard y una explicación de los KPIs sugeridos.
 
- 📁 [Proyect02_DataAnalyst](https://github.com/LeanGJ/Proyect02_DataAnalyst)
+- Archivos `notebooks`: Los notebooks de Jupyter utilizados para el análisis exploratorio de datos y la generación del dashboard.
 
-<h1>Technologies used</h1>
+- Carpeta `DS`: Almacenará los datasets adquiridos para el análisis.
 
-Power BI
-
-<h1>Conclusion</h1>
-
-Visto y considerando que la empresa para invertir en el mercado financiero, se necesitaria analizar el panorama completo de los ultimos 33 años de actividad bursatil y, en base a esto, realizar un analisis exhaustivo en los diversos rubros, debebiamos escoger entre estas un grupo de acciones solidas para poder sugerirles a la empresa para que puedan incursionar de manera segura.
-  Sabiendo lo anterior, se tomo la descicion de escoger un grupo de acciones denominadas "defensivas" que
-practicamente se las llama asi por que son las mas seguras para poder invertir a largo plazo. Entre las escogidas se encuentran:
-
- * The Southern Company (SO)
- * Duke Energy Corporation (DUK)
- * Chevron Corporation (CVX)
-
-Informacion y analisis de las empresas:
-
-The Southern Company (SO) es una empresa de servicios públicos de energía eléctrica con sede en Atlanta, Georgia. Fue fundada en 1945 como una empresa holding para las compañías de servicios públicos eléctricos en el sureste de los Estados Unidos.
-The Southern Company utiliza una variedad de fuentes, incluyendo combustibles fósiles, energía nuclear y energía renovable. La mayoría de la energía que produce la empresa proviene de centrales térmicas que queman gas natural, carbón o petróleo para generar electricidad. La empresa también es propietaria de y opera tres plantas nucleares, que representan una parte significativa de su capacidad de generación.
-
-
-
-
-
-Duke Energy Corporation (DUK) es una empresa estadounidense de servicios públicos que se dedica a la generación, distribución y transmisión de energía eléctrica. La empresa tiene su sede en Charlotte, Carolina del Norte, y opera en seis estados del sureste de Estados Unidos, incluyendo Carolina del Norte, Carolina del Sur, Florida, Indiana, Kentucky y Ohio.
-Duke Energy opera una combinación de centrales térmicas y de energía renovable, incluyendo energía hidroeléctrica, energía solar y energía eólica. La empresa también tiene una subsidiaria llamada Duke Energy Renewables, que se dedica exclusivamente a la generación de energía renovable.
-Además de su negocio principal de servicios públicos, Duke Energy también está involucrada en la transmisión y distribución de gas natural a través de su subsidiaria Piedmont Natural Gas, y en la exploración y producción de gas natural a través de su subsidiaria Duke Energy Field Services.  
-
-
-
-
-
-Chevron Corporation (CVX) es una empresa estadounidense de energía que se dedica a la exploración, producción y refinación de petróleo y gas natural. La empresa fue fundada en 1879 y tiene su sede en San Ramón, California.
-Chevron es una de las mayores compañías petroleras del mundo y está presente en más de 180 países.
-En cuanto a su estructura empresarial, Chevron se divide en dos segmentos principales: el segmento de Upstream (aguas arriba), que se dedica a la exploración y producción de petróleo y gas natural, y el segmento de Downstream (aguas abajo), que se dedica a la refinación de petróleo y la comercialización de productos petroleros.
-
-<h1>People developing the project</h1>
+- Carpeta `dashboard`: Contendrá los archivos necesarios para la creación del dashboard interactivo.
